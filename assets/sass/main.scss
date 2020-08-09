@@ -1,0 +1,31 @@
+// Manifest file
+
+// abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// vendors
+@import 'vendors/bootstrap-v4.5/bootstrap';
+
+// base
+@import 'base/reset';
+@import 'base/base';
+@import 'base/typography';
+
+// layout
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/article';
+@import 'layout/author';
+@import 'layout/pagination';
+@import 'layout/footer';
+
+// components
+@import 'components/buttons';
+
+// pages
+
+// themes
+
+
+

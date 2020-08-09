@@ -1,0 +1,36 @@
+.header {
+	color: $white;
+	height: 700px;
+	background-image: url('../img/post-image.jpg');
+	background-repeat: none;
+    background-size: cover;
+
+    & h1 {
+    font-family: $playfair;
+    font-size: $xx-large; 
+    margin-bottom: 25%;
+    font-weight: $font-black;
+	font-style: italic;
+    }
+}
+
+.header__content {
+	max-width: 650px;
+	margin: 0 auto;
+	padding-top: 20%;
+}
+
+@media (max-width: 800px) {
+	.header h1 {
+	font-size: 3em;
+	padding: 0 1em 0 1em;
+	}
+
+	.header {
+	color: $white;
+	height: 500px;
+	background-image: url('../img/post-image.jpg');
+	background-repeat: none;
+    background-size: cover;
+    }
+}
